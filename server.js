@@ -3,7 +3,7 @@ const app = express();
 const PORT = 8000;
 
 app.use(express.json());
-e
+
 app.post('/api/products/value', (req, res) => {
     const products = req.body.products;
 
